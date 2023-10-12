@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5d1aaa;
+    font-family: 'Poppins', sans-serif;
+}
+/* Reset some default styles */
+
+/* Style for the top header */
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style for the header h1 */
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Style for the main content container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the founder cards */
+.founder-card {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect on founder cards */
+.founder-card:hover {
+  transform: scale(1.05);
+}
+
+/* Style for founder card images */
+.founder-card img {
+  max-width: 100%;
+}
+
+/* Style for founder names */
+.founder-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style for founder roles */
+.founder-card p {
+  font-size: 14px;
+  margin: 0;
+}
+
+

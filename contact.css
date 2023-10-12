@@ -1,0 +1,82 @@
+/* contact.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Ensure relative positioning for the animated image */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    text-size-adjust:24px ;
+}
+
+
+.video-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* Ensure relative positioning for the animated image container */
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-details p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    margin-top: 20px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.map-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Image at the top center */
+.top-center-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top-center-image img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    display: block; /* Remove any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}

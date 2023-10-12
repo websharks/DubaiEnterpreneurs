@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pricing</title>
+<link rel="stylesheet" href="price.css">
+</head>
+<body>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+        
+        <title>Pricing component</title>
+        </head>
+        
+        <body>
+          <header>
+            <h1>Dubai Enterpreneurs Pricing</h1>
+            <div class="toggle">
+              <label>Annually </label>
+              <div class="toggle-btn">
+                <input type="checkbox" class="checkbox" id="checkbox" />
+                <label class="sub" id="sub" for="checkbox">
+                  <div class="circle"></div>
+                </label>
+              </div>
+              <label> Monthly</label>
+            </div>
+          </header>
+          <div class="cards">
+            <div class="card shadow">
+              <ul>
+                <li class="pack">Basic</li>
+                <li id="basic" class="price bottom-bar">&dollar;199.99</li>
+                <li class="bottom-bar">Minimum Product Deals</li>
+                <li class="bottom-bar">Free Shipping</li>
+                <li class="bottom-bar">Loot Deals</li>
+                <li><button class="btn">Learn More</button></li>
+              </ul>
+            </div>
+            <div class="card active">
+              <ul>
+                <li class="pack">Professional</li>
+                <li id="professional" class="price bottom-bar">&dollar;249.99</li>
+                <li class="bottom-bar">Maximum Product Deals</li>
+                <li class="bottom-bar">Free Shipping</li>
+                <li class="bottom-bar">Loot Deals & Gifts</li>
+                <li><button class="btn active-btn">Learn More</button></li>
+              </ul>
+            </div>
+            <div class="card shadow">
+              <ul>
+                <li class="pack">Master</li>
+                <li id="master" class="price bottom-bar">&dollar;399.99</li>
+                <li class="bottom-bar">Weekly Deals</li>
+                <li class="bottom-bar">Free Shipping & Cashback</li>
+                <li class="bottom-bar">LOOT Deals & Trip</li>
+                <li><button class="btn">Learn More</button></li>
+              </ul>
+            </div>
+          </div>
+          <script src="price.js"></script>
+        </body>
+
+</body>
+</html>

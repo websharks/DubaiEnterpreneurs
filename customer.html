@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+
+
+        <head>
+                <title>Customer Care Queue System</title>
+                <link rel="stylesheet" href="customer.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+              </head>
+              <body>
+                <div class="fullscreen-container">
+                  <div class="queue">
+                    <h1>Dubai Customer Care Queue System</h1>
+                    <div class="service-selection">
+                      <label for="serviceName">Select Service:</label>
+                      <select id="serviceName" class="form-control">
+                        <option value="customer_services">Customer Services</option>
+                        <option value="account">Account</option>
+                        <option value="billing_info">Billing Info</option>
+                        <option value="general_issues">General Issues</option>
+                      </select>
+                      <button onclick="joinQueue()" class="btn btn-primary">Join Queue</button>
+                    </div>
+                    <div class="new-customer-info">
+                      <p>Estimated Waiting Time for New Customer: <span id="newCustomerWaitingTime">N/A</span></p>
+                    </div>
+                    <div class="queue-display" id="queueDisplay"></div>
+                    <div class="counters" id="counters"></div>
+                    <div class="total-services">
+                      <p>Total Services Given Today: <span id="totalServices">0</span></p>
+                    </div>
+                  </div>
+                </div>
+              <!-- Floating Social Button -->
+                <button class="social-button" onclick="toggleSocialIcons()">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              
+                <!-- Floating Social Icons -->
+                <div class="social-icons" id="socialIcons">
+                  <a href="https://www.facebook.com/cxrana" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.linkedin.com/in/ahrana/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/ahrana" target="_blank"><i class="fab fa-github"></i></a>
+                  <!-- Add more social media icons as needed -->
+                </div>
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                 
+                <script>
+                 
+                </script>
+              </body>
+              <script src="customer.js"></script>
+
+              
+              
+</body>
+</html>
